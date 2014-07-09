@@ -30,6 +30,7 @@ install wget --enable-iri
 #install narwhal
 
 # Install more recent versions of some OS X tools
+install maven
 install vim --override-system-vi
 install homebrew/dupes/grep
 install homebrew/dupes/screen
