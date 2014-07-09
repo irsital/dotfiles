@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#check for xcode tools
+xcode-select --install
+
 cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
