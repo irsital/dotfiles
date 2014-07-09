@@ -33,6 +33,10 @@ install wget --enable-iri
 install vim --override-system-vi
 install homebrew/dupes/grep
 install homebrew/dupes/screen
+install curl
+link curl --force
+install openssl
+link openssl --force
 install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
@@ -56,6 +60,7 @@ install tree
 install ucspi-tcp # `tcpserver` et al.
 install webkit2png
 install xpdf
-install zopfli install homebrew/versions/lua52 
+install zopfli 
+install homebrew/versions/lua52
 # Remove outdated versions from the cellar
 cleanup
