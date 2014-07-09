@@ -1,6 +1,9 @@
-iexecute pathogen#infect()
+execute pathogen#infect()
+" Enable syntax highlighting
+syntax enable
 " Use the Solarized Dark theme
 set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
 
 " Make Vim more useful
@@ -39,8 +42,6 @@ set exrc
 set secure
 " Enable line numbers
 set number
-" Enable syntax highlighting
-syntax on
 " Highlight current line
 set cursorline
 " Make tabs as wide as two spaces
