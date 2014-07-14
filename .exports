@@ -23,3 +23,16 @@ export GREP_OPTIONS="--color=auto";
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
+
+# for coreutils
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH";
+
+# for man pages for coreutils
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+# for sed
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
+
+# for haskell platform
+export PATH=~/.cabal/bin:$PATH
